@@ -40,6 +40,8 @@ const char *RMSAPPROVED[] = {
 	"PSF",
 	"PIL",
 	"OFL",
+	"tcl/tk",
+	"libpng",
 	NULL
 };
 
