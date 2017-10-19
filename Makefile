@@ -1,12 +1,9 @@
 
-LDFLAGS='-lxbps'
-
-
 all: vrms
 
 
 vrms: vrms.c
-	$(CC) -o vrms $(CFLAGS) vrms.c -lxbps $(LDLAGS)
+	$(CC) -o vrms $(CFLAGS) vrms.c $(LDFLAGS) -lxbps
 
 
 vrms.1: vrms.1.md
