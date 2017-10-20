@@ -26,10 +26,8 @@
 const char *RMSAPPROVED[] = {
 	"Artistic",
 	"Apache-2.0",
-	"GPL-1",
-	"GPL-2",
-	"GPL-3",
-	"LGPL-2.1",
+	"GPL",
+	"LGPL",
 	"MIT",
 	"BSD",
 	"MPL-2.0",
@@ -42,6 +40,14 @@ const char *RMSAPPROVED[] = {
 	"OFL",
 	"tcl/tk",
 	"libpng",
+	"Boost",
+	"Free for any use",
+	"CC",
+	"ICU",
+	"JasPer-2.0",
+	"ImageMagick",
+	"OSGPL",
+	"SCOWL",
 	NULL
 };
 
