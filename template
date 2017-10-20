@@ -1,0 +1,17 @@
+# Template file for 'vrms-void'
+pkgname=vrms-void
+version=0.1
+revision=1
+build_style=gnu-makefile
+makedepends="libxbps-devel"
+short_desc="Virtual RMS for Void Linux / XBPS"
+maintainer="Andrew Benson <abenson+void@gmail.com>"
+license="GPL-3"
+homepage="https://github.com/abenson/vrms-void/"
+distfiles="https://github.com/abenson/vrms-void/archive/v${version}.tar.gz"
+checksum=dc75c2cc8d03e150cedbb7ffdde85645ef157bf1ae3e536eb92b1f79d42ef353
+
+do_install() {
+	vbin vrms
+	vman vrms.1
+}
